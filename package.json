@@ -1,0 +1,15 @@
+{
+  "name": "eth-trading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Herron",
+  "license": "ISC",
+  "dependencies": {
+    "gdax-candles": "^1.5.3",
+    "jStat": "^1.7.1"
+  }
+}
