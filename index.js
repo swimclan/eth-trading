@@ -22,8 +22,12 @@ ethChart.on('close', candle => {
     const highModel = jStat.models.ols(highs, indices);
     const lowModel = jStat.models.ols(lows, indices);
     const priceModel = jStat.models.ols(prices, indices);
+    const now = new Date();
+    console.log('----------------------------------------------------------------');
+    console.log(now.toString());
     console.log(`Highest residual (highs): ${Math.max(...highModel.resid)}`);
     console.log(`Lowest residual (lows): ${Math.max(...lowModel.resid)}`);
     console.log(`slope (prices): ${priceModel.coef[1]}`);
+    console.log('----------------------------------------------------------------');
   }
 });
