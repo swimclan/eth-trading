@@ -9,7 +9,7 @@
   "author": "Matt Herron",
   "license": "ISC",
   "dependencies": {
-    "gdax-candles": "^1.5.3",
+    "gdax-candles": "^1.6.1",
     "jStat": "^1.7.1"
   }
 }
