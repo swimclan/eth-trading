@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "gdax": "^0.8.0",
-    "gdax-candles": "^1.6.1",
+    "gdax-candles": "^1.6.3",
     "jStat": "^1.7.1"
   }
 }
