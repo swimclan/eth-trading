@@ -36,3 +36,5 @@ ethChart.on('close', candle => {
     console.log('----------------------------------------------------------------');
   }
 });
+
+ethChart.on('error', error => console.log(error));
